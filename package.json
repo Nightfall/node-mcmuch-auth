@@ -1,21 +1,21 @@
 {
-	"name": "mcmuch-minecraft-passport-auth",
-	"version": "0.0.0",
-	"description": "A Passport strategy that uses Mojang's session servers to authenticate a user with the help of custom code on the (Minecraft) client.",
-	"main": "index.js",
-	"dependencies": {
-		"passport-strategy": "^1.0.0",
-		"yggdrasil": "^0.0.4"
-	},
-	"devDependencies": {},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"Minecraft",
-		"MCMUCH"
-	],
-	"author": "skyem123",
-	"license": "BSD",
-	"repository": "https://github.com/Nightfall/node-mcmuch-auth"
+  "name": "mcmuch-minecraft-passport-auth",
+  "version": "0.0.0",
+  "description": "A Passport strategy that uses Mojang's session servers to authenticate a user with the help of custom code on the (Minecraft) client.",
+  "main": "index.js",
+  "dependencies": {
+    "passport-strategy": "^1.0.0",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Minecraft",
+    "MCMUCH"
+  ],
+  "author": "skyem123",
+  "license": "BSD",
+  "repository": "https://github.com/Nightfall/node-mcmuch-auth"
 }
