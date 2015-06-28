@@ -1,21 +1,42 @@
 {
-  "name": "mcmuch-minecraft-passport-auth",
-  "version": "0.0.0",
-  "description": "A Passport strategy that uses Mojang's session servers to authenticate a user with the help of custom code on the (Minecraft) client.",
-  "main": "index.js",
-  "dependencies": {
-    "passport-strategy": "^1.0.0",
-    "superagent": "^1.2.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Minecraft",
-    "MCMUCH"
-  ],
-  "author": "skyem123",
-  "license": "BSD",
-  "repository": "https://github.com/Nightfall/node-mcmuch-auth"
+	"name": "passport-mcmuch-auth",
+	"version": "0.0.0",
+	"description": "A Passport strategy for MCMUCH (a Minecraft mod) that uses Mojang's session servers to authenticate a user without touching any passwords.",
+	"keywords": [
+		"Minecraft",
+		"MCMUCH",
+		"passport",
+		"authentication"
+	],
+	"homepage": "https://github.com/Nightfall/node-mcmuch-auth",
+	"bugs": {
+		"url" : "https://github.com/Nightfall/node-mcmuch-auth/issues"
+	},
+	"license": "BSD-2-Clause",
+	"author": {
+		"name": "skyem123",
+		"email": "skyem@hotmail.co.uk",
+		"url": "https://skyem.co.uk"
+	},
+	"files": [
+		"index.js",
+		"lib"
+	],
+	"main": "index.js",
+	"directories": {
+		"lib": "./lib"
+	},
+	"dependencies": {
+		"passport-strategy": "^1.0.0",
+		"superagent": "^1.2.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Nightfall/node-mcmuch-auth.git"
+	}
 }
+
